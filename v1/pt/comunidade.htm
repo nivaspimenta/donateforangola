@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comunidade Angolana na Holanda</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/comunidade.css">
+    <link rel="icon" href="/img/icon.jpg">
+</head>
+
+<body>
+    <div id="topnav">
+        <a id="ico" href="/pt/index.htm"><img id="ima" src="/img/icon.jpg"></a>
+        <a id="tpbtn" href="/index.htm">EN/PT/NL</a>
+        <a id="tpbtn" href="/pt/contact.htm">CONTATO</a>
+        <a id="donate" href="/pt/donate.htm">DOAR</a>
+        <a id="tpbtn" href="/pt/comunidade.htm">COMUNIDADE ANGOLANA NA HOLANDA</a>
+    </div>
+
+    <div id="caixa">
+        <div id="his">
+            <h2>Juntos por Cuando Cubango</h2>
+            <p>O sul de Angola tem enfrentado  períodos de extrema seca.</p>
+            <p>As situações de risco de vida decorrem da falta de água, da extinção de gado e da perda de colheitas.</p>
+            <p>Juntamos as mãos por  Cuando Cubango.</p>
+        </div>
+
+        <div id="hisim">
+        </div>
+    </div>
+
+    <div id="how">
+        <div id="titulo">
+            <h2>Como começou... Como vai</h2>
+        </div>
+
+        <div id="galeria">
+            <div id="img-gal">
+                <span id="dot" onclick="currentSlide(0)"></span>
+                <span id="dot" onclick="currentSlide(1)"></span>
+                <span id="dot" onclick="currentSlide(2)"></span>
+                <span id="dot" onclick="currentSlide(3)"></span>
+                <span id="dot" onclick="currentSlide(0)"></span>
+                <span id="dot" onclick="currentSlide(1)"></span>
+                <span id="dot" onclick="currentSlide(2)"></span>
+                <span id="dot" onclick="currentSlide(3)"></span>
+                <span id="dot" onclick="currentSlide(0)"></span>
+                <span id="dot" onclick="currentSlide(1)"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function currentSlide(n) {
+            showSlides(n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var gale = document.getElementById("galeria");
+            const images = ["url('/img/1.jpg')", "url('/img/2.jpg')", "url('/img/3.jpg')", "url('/img/4.jpg')"];
+            document.getElementById("galeria").style.backgroundImage = images[n];
+        }
+    </script>
+
+    <!--<div id="share">
+        <a id="ico" href="#facebook"><img id="ima" src="/img/face.png"></a>
+        <a id="ico" href="#twitter"><img id="ima" src="/img/twitter.png"></a>
+        <a id="ico" href="#instagram"><img id="ima" src="/img/insta.png"></a>
+        <a id="ico" href="#youtube"><img id="ima" src="/img/you.png"></a>
+    </div>-->
+
+</body>
+
+</html>

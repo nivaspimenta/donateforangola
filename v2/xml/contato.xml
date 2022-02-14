@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<conteudo>
+    <nl>
+       <titulo>Contact</titulo>
+       <nome>Naam</nome>
+       <email>E-mailadres</email>
+       <mensagem>Bericht</mensagem>
+       <pnome>Naam</pnome>
+       <pemail>E-mailadres</pemail>
+       <pmensagem>Schrijf het bericht ...</pmensagem>
+       <submit>Indienen</submit>
+    </nl>
+    <en>
+        <titulo>Contact</titulo>
+        <nome>Name</nome>
+        <email>E-mail</email>
+        <mensagem>Message</mensagem>
+        <pnome>Name</pnome>
+        <pemail>E-mail</pemail>
+        <pmensagem>Message ...</pmensagem>
+        <submit>Send</submit>
+    </en>
+    <pt>
+        <titulo>Contato</titulo>
+        <nome>Nome</nome>
+        <email>Email</email>
+        <mensagem>Mensagem</mensagem>
+        <pnome>Nome</pnome>
+        <pemail>Email</pemail>
+        <pmensagem>Mensagem ...</pmensagem>
+        <submit>Enviar</submit>
+    </pt>
+</conteudo>

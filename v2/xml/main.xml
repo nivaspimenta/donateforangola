@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<conteudo>
+    <nl>
+        <sn>Over ons</sn>
+        <texto>
+            <p1>Leden van de Angolese Gemeenschap in Nederland zijn bij elkaar gekomen om dit project op te zetten en uit te voeren.</p1>
+            <p2>Onze missie is om slachtoffers van extreem droogte in Cuando Cubango, Angola, te ontlasten.</p2>
+            <p3>Door middel van deze campagne willen we kleding en voedsel doneren voor het bestrijden van dringend nood aan basislevensmiddelen.</p3>
+            <p4></p4>
+        </texto>
+    </nl>
+    <en>
+        <sn>About us</sn>
+        <texto>
+            <p1>Members of the Angolan Community in the Netherlands have come together to set up and implement this project.</p1>
+            <p2>Our mission is to relieve victims of extreme drought in Cuando Cubango, Angola.</p2>
+            <p3>Through this campaign, we want to donate clothing and food to combat the urgent need for basic foodstuffs.</p3>
+            <p4>We also want to bring the local government in Cuando Cubango into contact with Dutch experts in the field of water issues and agriculture.</p4>
+        </texto>
+    </en>
+    <pt>
+        <sn>Sobre Nós</sn>
+        <texto>
+            <p1>Membros da Comunidade Angolana na Holanda juntaram-se para criar e implementar este projecto.</p1>
+            <p2>A nossa missão é socorrer as vítimas da seca extrema no Cuando Cubango, Angola.</p2>
+            <p3>Com esta campanha, queremos doar roupas e alimentos para combater a necessidade urgente de alimentos básicos.</p3>
+            <p4>Queremos também colocar o governo local do Cuando Cubango em contacto com especialistas holandeses na área da água e agricultura.</p4>
+        </texto>
+    </pt>
+
+    <imagens>
+        <intro>/img/fotos/1.jpg</intro>
+        <img1>/img/fotos/1.jpg</img1>
+    </imagens>
+</conteudo>

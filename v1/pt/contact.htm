@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comunidade Angolana na Holanda</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="icon" href="/img/icon.jpg">
+</head>
+
+<body>
+    <div id="topnav">
+        <a id="ico" href="/pt/index.htm"><img id="ima" src="/img/icon.jpg"></a>
+        <a id="tpbtn" href="/index.htm">EN/PT/NL</a>
+        <a id="tpbtn" href="/pt/contact.htm">CONTATO</a>
+        <a id="donate" href="/pt/donate.htm">DOAR</a>
+        <a id="tpbtn" href="/pt/comunidade.htm">COMUNIDADE ANGOLANA NA HOLANDA</a>
+    </div>
+
+    <h2>Contato</h2>
+
+    <div id="formulario">
+        <form action="/php/sendemail.php" method="post">
+            <div id="linha">
+                <div id="nome">
+                    <label for="name">Nome  *</label>
+                </div>
+                <div id="campo">
+                    <input type="text" id="campo-style" name="name" placeholder="Nome" maxlength="50" required>
+                </div>
+            </div>
+            <div id="linha">
+                <div id="nome">
+                    <label for="email">Email    *</label>
+                </div>
+                <div id="campo">
+                    <input type="email" id="campo-style" name="email" placeholder="Email" maxlength="75" required>
+                </div>
+            </div>
+
+            <div id="linha-mensagem">
+                <div id="nome">
+                    <label for="email">Mensagem  *</label>
+                </div>
+                <div id="campo">
+                    <textarea type="text" id="campo-mensagem" name="message" placeholder="Escreve a mensagem ..." maxlength="2600" required></textarea>
+                </div>
+            </div>
+
+            <div id="linha">
+                <div id="nome">
+                    <label for="submit"></label>
+                </div>
+                <div id="campo">
+                    <input id="btn-submit" type="submit" value="ENVIAR">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--<div id="share">
+        <a id="ico" href="#facebook"><img id="ima" src="/img/face.png"></a>
+        <a id="ico" href="#twitter"><img id="ima" src="/img/twitter.png"></a>
+        <a id="ico" href="#instagram"><img id="ima" src="/img/insta.png"></a>
+        <a id="ico" href="#youtube"><img id="ima" src="/img/you.png"></a>
+    </div>-->
+</body>
+
+</html>

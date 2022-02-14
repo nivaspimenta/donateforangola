@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<idioma>
+    <nl>
+        <inicio>Huis</inicio>
+        <comunidade>Angolese Gemeenschap in Nederland</comunidade>
+        <contacto>Contact</contacto>
+        <doar>Doneren</doar>
+    </nl>
+
+    <en>
+        <inicio>Inicico</inicio>
+        <comunidade>Angolan Community in Holand</comunidade>
+        <contacto>Contact</contacto>
+        <doar>Donate</doar>
+    </en>
+        
+    <pt>
+        <inicio>Início</inicio>
+        <comunidade>Comunidade Angolana na Holanda</comunidade>
+        <contacto>Contacto</contacto>
+        <doar>Doar</doar>
+    </pt>
+
+    <icon>/img/header/icon.ico</icon>
+</idioma>

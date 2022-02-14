@@ -1,0 +1,129 @@
+@import url('/css/topnav.css');
+html * {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+#cont-1 {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: 87%;
+    max-height: fit-content;
+    min-height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#cont-1 h1 {
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #419fec;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#formulario {
+    width: 60%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+#linha {
+    width: 100%;
+    height: 50px;
+    resize: both;
+}
+
+#nome {
+    height: 25px;
+    width: 250px;
+    resize: both;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+
+#campo-style {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    float: right;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
+::placeholder {
+    color: #419fec;
+    font-style: italic;
+}
+
+#linha-mensagem {
+    width: 100%;
+    height: 250px;
+    resize: both;
+}
+
+#campo-mensagem {
+    width: 50%;
+    padding: 12px;
+    height: 240px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    float: right;
+    margin-top: 5px;
+    margin-right: 150px;
+    resize: none;
+}
+
+#btn-submit {
+    background-color: #419fec;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 150px;
+    text-transform: uppercase;
+}
+
+
+/*
+SCROLL BAR
+*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #419fec;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

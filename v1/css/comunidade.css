@@ -1,0 +1,201 @@
+html * {
+    font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#topnav {
+    width: 100%;
+    height: 50px;
+    resize: both;
+    top: 0;
+    position: sticky !important;
+    border-bottom: 2px solid #ffffff;
+    background-color: rgba(173, 173, 173, 0.5);
+    margin-bottom: 3px;
+}
+
+#ico {
+    float: left;
+}
+
+#ima {
+    width: 48px;
+    height: 48px;
+    color: white;
+}
+
+#tpbtn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 8px 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top: 1px solid white;
+    float: right;
+    margin-top: 8px;
+}
+
+#tpbtn:hover {
+    border-top: 2px solid rgb(26, 131, 12);
+}
+
+#donate {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 131, 12);
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 8px 8px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#donate:hover {
+    color: rgb(26, 131, 12);
+    background-color: white;
+}
+
+#caixa {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#his {
+    width: 70%;
+    margin-left: 3%;
+    height: 249px;
+    float: left;
+}
+
+#his h2 {
+    Color: rgb(70, 212, 255);
+    text-decoration: none;
+    font-size: 28px;
+    text-shadow: #888;
+}
+
+#his p {
+    text-align: justify;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#hisim {
+    width: 20%;
+    height: 249px;
+    float: right;
+    align-content: center;
+    background-image: url(/img/com.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#how {
+    width: 100%;
+    height: 800px;
+    resize: both;
+    margin-top: 50px;
+}
+
+#titulo {
+    width: 350px;
+    height: 70px;
+    resize: both;
+    color: rgb(70, 212, 255);
+    margin-left: 2%;
+    padding: 2px;
+}
+
+#galeria {
+    width: auto;
+    height: 725px;
+    resize: both;
+    align-content: center;
+    background-image: url(/img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(184, 184, 184);
+}
+
+#img-gal {
+    width: 235px;
+    height: 20px;
+    resize: both;
+    margin-left: 615px;
+    margin-top: 690px;
+}
+
+#dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(26, 131, 12);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#dot:hover {
+    background-color: rgb(54, 150, 41);
+}
+
+#share {
+    width: 235px;
+    height: 50px;
+    resize: both;
+    margin-left: 610px;
+    margin-top: 50px;
+}
+
+#share a {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+
+/*
+SCROLL BAR
+*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

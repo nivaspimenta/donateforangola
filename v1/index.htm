@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angolese Gemeenschap in Nederland</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/img/icon.jpg">
+</head>
+
+<body>
+    <div id="welcome">
+        WELKOM
+    </div>
+
+    <div id="language">
+        <a id="flag" href="/pt/index.htm"><img src="/img/pt.png"></a>
+        <a id="flag" href="/en/index.htm"><img src="/img/uk.png"></a>
+        <a id="flag" href="/nl/index.htm"><img src="/img/nl.png"></a>
+    </div>
+</body>
+<script>
+    function ChangeBg() {
+        const images = ["url('/img/1.jpg')", "url('/img/2.jpg')", "url('/img/3.jpg')"]
+        const bg = images[Math.floor(Math.random() * images.length)];
+        document.body.style.backgroundImage = bg;
+    }
+
+    setInterval(ChangeBg, 5000);
+</script>
+
+</html>

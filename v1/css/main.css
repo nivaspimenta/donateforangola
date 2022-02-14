@@ -1,0 +1,48 @@
+html * {
+    font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+body {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    background-image: url(/img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#welcome {
+    color: white;
+    border: white solid 1px;
+    font-size: 34px;
+    width: 250px;
+    text-align: right;
+    padding: 15px;
+    resize: both;
+    margin-top: 50px;
+}
+
+#language {
+    width: 260px;
+    height: 72px;
+    margin-top: 35%;
+    margin-right: 90px;
+    align-items: center;
+    float: right;
+    resize: both;
+    display: block;
+}
+
+#flag {
+    width: 90px;
+    height: 68px;
+    resize: both;
+}
+
+img {
+    width: 80px;
+    height: 70px;
+    border-radius: 10%;
+    border: 1px solid white;
+}

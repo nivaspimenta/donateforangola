@@ -1,0 +1,201 @@
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-bottom: 1px solid #419fec;
+    padding-bottom: 15px;
+}
+
+#hom {
+    color: #419fec;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+    border-top: 1px solid white;
+}
+
+#hom:hover {
+    color: #419fec;
+    border-top: 1px solid #419fec;
+    font-size: 1.1vw;
+}
+
+#com {
+    color: #008cff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+    border-top: 1px solid white;
+}
+
+#com:hover {
+    color: #419fec;
+    border-top: 1px solid #419fec;
+    font-size: 1.1vw;
+}
+
+#cont {
+    color: #008cff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+    border-top: 1px solid white;
+}
+
+#cont:hover {
+    color: #419fec;
+    border-top: 1px solid #419fec;
+    font-size: 1.1vw;
+}
+
+#doar {
+    background-color: #419fec;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    border-radius: 6px;
+    font-size: 1.1vw;
+}
+
+#doar:hover {
+    background-color: rgb(12, 184, 69);
+    color: white;
+    font-size: 1.1vw;
+}
+
+#ling {
+    color: #008cff;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+}
+
+#nl {
+    color: #419fec;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+}
+
+#nl:hover {
+    background: linear-gradient(to right, rgb(0, 84, 153), rgb(255, 255, 255), rgb(255, 57, 57));
+    background-position: bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+#en {
+    color: #008cff;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+}
+
+#en:hover {
+    background: linear-gradient(to right, rgb(0, 84, 153), rgb(255, 57, 57), rgb(0, 84, 153));
+    background-position: bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+#pt {
+    color: #008cff;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    margin-top: 1.5%;
+    margin-right: 1%;
+    font-size: 1.1vw;
+}
+
+#pt:hover {
+    background: linear-gradient(to right, rgb(1, 173, 16), 20%, rgb(228, 253, 0), 10%, rgb(255, 0, 0));
+    background-position: bottom;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+
+/*
+SCROLL BAR
+*/
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #419fec;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #419fec;
+}
+
+@media only screen and (min-width: 768px) {}
