@@ -1,0 +1,294 @@
+    html * {
+        font-family: 'Nunito', sans-serif !important;
+    }
+    /*#region Intro*/
+    
+    .intro {
+        top: 0;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        height: 97%;
+        background-color: rgb(98, 204, 66);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+        /* background-color: brown; */
+    }
+    
+    .intro .mensagem {
+        top: 40%;
+        left: 50%;
+        width: 40vw;
+        height: auto;
+        position: relative;
+        border-right: 2.5px solid white;
+        text-align: right;
+        font-size: 4.3vw;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+        color: white;
+        padding-right: 1vw;
+    }
+    
+    .intro .imagem {
+        top: -10%;
+        left: 5%;
+        width: 40vw;
+        height: 60vh;
+        position: relative;
+        background-image: url("/img/img/logo-donateforangola.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+        color: white;
+    }
+    
+    .intro .donate-button {
+        position: absolute;
+        top: 85%;
+        left: 73%;
+        width: 17vw;
+        height: 10vh;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+        /*background-color: tomato;*/
+        cursor: no-drop;
+    }
+    
+    .intro .donate {
+        top: 0;
+        width: 100%;
+        height: auto;
+        text-decoration: none;
+        font-size: 3vw;
+        text-align: center;
+        color: white;
+        display: block;
+        border-bottom: 2px solid white;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        cursor: no-drop;
+    }
+    
+    .intro .donate:hover {
+        border: 2px solid white;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        cursor: no-drop;
+    }
+    
+    .intro .ngo {
+        position: absolute;
+        top: 85%;
+        left: 13%;
+        width: 25%;
+        height: auto;
+        font-size: 2.5vw;
+        border-left: 2px solid white;
+        color: white;
+        padding-left: 0.2%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+    }
+    /*#endregion */
+    /*#region Sobre nos */
+    
+    .sobrenos {
+        position: absolute;
+        top: 95%;
+        margin-top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 93%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .sobrenos .texto {
+        position: absolute;
+        display: block;
+        top: 20%;
+        left: 10%;
+        width: 40%;
+        height: auto;
+        border-left: 2px solid black;
+        font-size: 1.5vw;
+        text-align: justify;
+        padding-left: 1%;
+    }
+    
+    .sobrenos .titulo {
+        position: absolute;
+        top: 4%;
+        left: 10%;
+        font-size: 3vw;
+        width: 30%;
+        height: auto;
+    }
+    
+    .sobrenos .imagem {
+        position: absolute;
+        top: 25%;
+        left: 60%;
+        width: 27%;
+        height: 77%;
+        background-image: url("/img/img/fundadora.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 2px 2px 2px #888888;
+    }
+    /*#endregion*/
+    /*#region Galeria */
+    
+    .galeria {
+        position: absolute;
+        top: 200%;
+        margin-top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 93%;
+    }
+    
+    .galeria .corpo {
+        position: absolute;
+        top: 10%;
+        background-color: rgb(98, 204, 66);
+        width: 100%;
+        height: 80%;
+    }
+    
+    .galeria .corpo .titulo {
+        position: absolute;
+        top: 7%;
+        left: 65%;
+        font-size: 2vw;
+        width: 30%;
+        color: black;
+    }
+    
+    .galeria .corpo .tela {
+        top: 5%;
+        left: 0%;
+        max-width: 60%;
+        height: 100%;
+        background-image: url("/img/galeria/10.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .galeria .corpo .texto {
+        position: absolute;
+        top: 40%;
+        left: 65%;
+        width: 30%;
+        height: auto;
+        font-size: 1.3vw;
+        border-right: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        text-align: justify;
+        padding-right: 1%;
+    }
+    /*#endregion*/
+    /*#region Rodape */
+    
+    .rodape {
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top: 297%;
+        left: 0%;
+        margin-bottom: 3%;
+    }
+    
+    .rodape .icon {
+        position: absolute;
+        top: 23%;
+        left: 35%;
+        width: 10%;
+        height: 65%;
+        background-image: url("/img/img/logo-donateforangola.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+    }
+    
+    .rodape .titulo {
+        position: absolute;
+        top: 40%;
+        left: 56%;
+        width: 25%;
+        height: 10%;
+        font-size: 2vw;
+        padding-bottom: 1%;
+        border-bottom: 2.5px solid rgb(0, 0, 0);
+        text-align: left;
+        color: black;
+    }
+    
+    .rodape .ano {
+        position: absolute;
+        top: 60%;
+        left: 56%;
+        width: 25%;
+        height: 10%;
+        font-size: 1vw;
+        padding-bottom: 1%;
+        text-align: right;
+        color: black;
+    }
+    /*#endregion */
+    /* #region SCROLL BAR */
+    
+     ::-webkit-scrollbar {
+        width: 5px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        background: #ffffff00;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: rgb(172, 172, 172);
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgba(85, 85, 85, 0);
+    }
+    /*#endregion*/
